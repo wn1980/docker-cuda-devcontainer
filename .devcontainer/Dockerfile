@@ -1,6 +1,6 @@
 
 ARG VARIANT="ubuntu20.04" 
-ARG CUDA_VERSION="11.0.3"
+ARG CUDA_VERSION="11.8.0"
 FROM nvidia/cuda:${CUDA_VERSION}-devel-${VARIANT}
 
 
